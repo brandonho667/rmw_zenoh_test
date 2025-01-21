@@ -10,7 +10,7 @@ def generate_launch_description():
     launch_description = LaunchDescription()
 
     # Generate 50 talker and listener pairs with unique topic names
-    for i in range(20):
+    for i in range(50):
         talker_node = Node(
             package='cpp_pubsub',
             executable='talker',
